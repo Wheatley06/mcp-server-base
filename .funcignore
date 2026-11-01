@@ -1,0 +1,14 @@
+.venv/
+.git/
+.gitignore
+.vscode/
+__pycache__/
+**/__pycache__/
+*.pyc
+local.settings.json
+README.md
+*.zip
+.azurite/
+__azurite*
+__blobstorage__/
+__queuestorage__/
