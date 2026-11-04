@@ -1,0 +1,8 @@
+#SDK de Azure Functions para definir funciones y triggers MCP
+azure-functions==1.24.0
+
+#Lectura del CSV y manipulación de datos mediante DataFrames
+pandas==2.3.3
+
+#Motor SQL para ejecutar consultas sobre los DataFrames
+duckdb==1.4.1

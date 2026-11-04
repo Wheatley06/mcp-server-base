@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.39.1, 5.0.0)"
+  },
+  "extensions": {
+    "mcp": {
+      "serverName": "BDAClientes",
+      "serverVersion": "1.0.0",
+      "instructions": "Obtén primero el esquema de clientes y luego consulta la tabla df con SQL de lectura. Usa la fecha de corte informada por el esquema y sustenta la respuesta en los resultados.",
+      "system": {
+        "webhookAuthorizationLevel": "System"
+      }
+    }
+  }
+}
